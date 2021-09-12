@@ -25,4 +25,9 @@
       <a href="{{ .PrevInSection.RelPermalink }}" class="button right"><span>{{ .PrevInSection.Title }}</span></a>
     {{ end }}
   </div>
+  <div class="toc">
+    <aside class="toc-item">
+      {{ .TableOfContents }}
+    </aside>
+  </div>
 {{ end }}

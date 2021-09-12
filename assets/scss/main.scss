@@ -1791,3 +1791,22 @@ figcaption {
     page-break-after: avoid;
   }
 }
+
+
+/* ==========================================================================
+   Toc
+   ========================================================================== */
+
+.toc {
+  position: fixed;
+  width: 300px;
+  right: 15px;
+  bottom: 80px;
+  z-index:999;
+  background: #fff;
+  border: 1px solid rgba(161,161,161,.3);
+}
+
+.toc-item {
+  margin: 1em 1em;
+}
