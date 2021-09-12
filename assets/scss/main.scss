@@ -1341,7 +1341,9 @@ figcaption {
   display: none;
   position: fixed;
   right: 15px;
-  border: 0;
+  //border: 0;
+  background: #fff;
+  border: 1px solid rgba(161,161,161,.3);
   transition: color $hover, transform $hover;
   &:hover {
     color: $accent-color !important;
